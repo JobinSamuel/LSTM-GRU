@@ -22,7 +22,7 @@ def predict_next_word(model,tokenizer,text,max_sequence_len):
     return None        
 
 st.title("Next Word Prediction with LSTM")
-input_text = st.text_input("Enter the sequence of Words","I Like to eat")    
+input_text = st.text_input("Enter the sequence of Words","Machine learning is useful for")    
 if st.button('Predict Next Word'):
     max_sequence_len = model.input_shape[1]+1
     next_word = predict_next_word(model,tokenizer,input_text,max_sequence_len)
