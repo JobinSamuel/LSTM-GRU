@@ -1,5 +1,5 @@
-**Next Word Prediction with LSTM (Hamlet) + Streamlit App
-**
+# Next Word Prediction with LSTM (Hamlet) + Streamlit App
+
 This project builds a Next Word Prediction model using an LSTM language model trained on Hamlet text. Given a partial phrase, the model predicts the most likely next word and can be used interactively through a Streamlit web app.
 
 What This Project Does
